@@ -1,5 +1,16 @@
 # AppProcess
 
+### Introduction
+
+app_process is an executable program native to Android, located in the /system/bin directory, and the zygote process is started by this executable file.
+
+AppProcess is a library which run app_process, transfer data between Android app & app_process to give the Android app a root privileges.
+
+
+### Installation
+
+https://jitpack.io/#ThinhVu/appProcess
+
 ### Prerequisites:
 ```
 implementation 'com.google.code.gson:gson:2.8.5'
